@@ -9,10 +9,11 @@
     *{
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
     }
 
     </style>
-</head>
+</head> 
 <body onload="main()">
     <div id="game"></div> 
     <button onclick="main()">Generate New</button>  
